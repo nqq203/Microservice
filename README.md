@@ -1,4 +1,4 @@
-# KUBERNETES DEPLOYMENT
+# SEMINAR - KUBERNETES
 ## Minikube: 
 ### 1. Pre-condition: 
 - You have to install and setup minikube on your computer.
