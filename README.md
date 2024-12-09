@@ -1,4 +1,6 @@
 # SEMINAR - KUBERNETES
+## Github repository:
+- https://github.com/nqq203/Microservice
 ## Minikube: 
 ### 1. Pre-condition: 
 - You have to install and setup minikube on your computer.
