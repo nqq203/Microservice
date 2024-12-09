@@ -33,7 +33,13 @@ kubectl describe svc/frontend ### this shows you the NodePort, which accepts the
 minikube ip ### this shows you the ip of minikube server
 ```
 - After get the minikube ip, use minikube ip and node port to access server: <minikube-ip>:<node-port>
-
+#### Using port-forwarding:
+- Use the following command line to forward port and access via localhost or 127.0.0.1:
+```bash
+kubectl port-forward svc/frontend-external 8080:80 ### or
+kubectl port-forward svc/frontend 8080:80
+```
+- Enter the the URL: localhost:8080
 
 ## Cloud Provider (AWS EKS):
 ### 1. Pre-conditions:
